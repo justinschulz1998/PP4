@@ -128,8 +128,13 @@ Wenn dies richtig war ist man mit der shell verbunden.
 **Provide:**
 
 ```text
-# 1) The full contents of your ~/.ssh/config
-# 2) A short explanation (3–4 sentences) of how the config simplifies connections
+# 1) Host my-remote
+        Hostname 169.254.104.87
+        User pi
+        IdentityFile ~/.ssh/id_ed25519
+        Dadurch das es hier kein Backup gibt auf dem Privaten RPI fällt die Backup Zeile weg 
+# 2) Die kommunikation geschieht hier wie gewohnt über IP und den Benutzer. Neu ist das in dieser Funktion noch der Schlüssel verwiesen ist. Die kommunikation ist in der vorherigen Aufgabe ja bereits beschrieben. Der Host ist in dem Falle ein alias der frei gewählt werden kann. Hostname ist die fetsgelegte Ip-Adresse des Servers / Gerät auf welches Zugegriffen werden soll. Wenn mann nun ssh alias eingibt werden die hinterlegten Daten abgerufen. 
+
 ```
 
 ---
