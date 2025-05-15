@@ -87,9 +87,9 @@ Wenn dies richtig war ist man mit der shell verbunden.
 **Provide:**
 
 ```bash
-# 1) The ssh-keygen command you ran
-# 2) The file paths of the generated keys
-# 3) Your written explanation (3–5 sentences) of the signature process
+# 1) Der Private Schlüssel bleibt nur lokal und signiert jede Aufgabe von dem Server mit dem privaten Schlüssel 
+# 2) Er prüft anhand der gesendeten SIgnatur mithilfe seines Schlüssels und seiner logik ob die Signatur mit dem öffentlichen Schlüssel übereinstimmt. Hier ist kein Zugang auf den Privaten Schlüssel notwendig.
+# 3) Aufgrund der oben genannten Punkte ist es sicher, Schnell und wird hauptsächlich in der SSH verwendet 
 ```
 
 ---
