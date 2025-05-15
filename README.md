@@ -167,12 +167,12 @@ Wenn dies richtig war ist man mit der shell verbunden.
    * How `scp` initiates an SSH session for each transfer.
    * The role of encryption in protecting data in transit.
 
-**Provide:**
-
+**Provide:*
 ```bash
 # 1) Each scp command you ran
 # 2) Any flags or options used
-# 3) A brief explanation (2–3 sentences) of scp’s mechanism
+# 3) SCP funtkioniert wieder über die SSH Verbindung und verlangt dementprechend auch die vorher angesprochenen Schlüssel . SCP fordert bei jeder anforderungen eine neue SSH Verbindung an. Aufgrund dieser Schlüssel ist dei Datenübertragung dementsprechend über SSH gesichert.
+ENDE der Zeit aufgrund Probleme mit der SSH Verbindung. Über eine VM und einen Raspberry Pi hat es nicht geklappt erst nach Installation der WSL und einigen Probleme und KOmplikationen mit dem Netzwerkadaptereinstellungen hat es dann funktioniert.
 ```
 
 ---
