@@ -55,8 +55,11 @@ In this exercise you will:
 **Provide:**
 
 ```bash
-# 1) The exact ssh command you ran
-# 2) A detailed, step-by-step explanation of what happened at each stage
+# 1) ssh pi@169.254.104.87
+# 2) Verbindung über Remote Host.
+Beim ersten Verbinden des Hostes die Verbindung nicht bekannt. Hier muss ein Fingerprint ausgetauscht werden und die IP- Adresse wird auf die permanente Liste der bekannten Hosts gesetzt.
+Anschließend kommt die Passwort abfrage.
+Wenn dies richtig war ist man mit der shell verbunden.  
 ```
 
 ---
